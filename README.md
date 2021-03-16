@@ -1,5 +1,7 @@
 ## The layout editor
 
+#### All the branch are merged in master branch.
+
 ***Homework completed for Hello Constraint app***
 <br>
 <br>
