@@ -8,7 +8,16 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="928d6a75-4cb1-4e33-83a9-7681bd7eeac4" name="Default Changelist" comment="" />
+    <list default="true" id="928d6a75-4cb1-4e33-83a9-7681bd7eeac4" name="Default Changelist" comment="initial commit.">
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout-land/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/Hello_Toast.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/Hello_Toast.app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +29,26 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ppfHWC1gcx4WWTw5dr9rS9dx8c" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -27,9 +56,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Nexus_10_API_26" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-03-16T09:25:27.534Z" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Mobile App Development/The LayoutEditor" />
     <property name="project.structure.last.edited" value="Variables" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -115,7 +146,19 @@
       <option name="presentableId" value="Default" />
       <updated>1615884864577</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit.">
+      <created>1615886073863</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615886073863</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit." />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit." />
   </component>
   <component name="WindowStateProjectService">
     <state x="297" y="0" key="#All_in_Hello_Toast" timestamp="1615885938791">
@@ -126,13 +169,17 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="204" y="133" key="#PSD/0.0.1366.738@0.0.1366.738" timestamp="1615885988560" />
-    <state x="467" y="129" key="FileChooserDialogImpl" timestamp="1615885588159">
+    <state x="467" y="129" key="FileChooserDialogImpl" timestamp="1615890337093">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="467" y="129" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1615885588159" />
+    <state x="467" y="129" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1615890337093" />
     <state x="188" y="28" key="SettingsEditor" timestamp="1615886002594">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="188" y="28" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1615886002594" />
+    <state x="279" y="102" key="Vcs.Push.Dialog.v2" timestamp="1615886099521">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="279" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1615886099521" />
   </component>
 </project>
