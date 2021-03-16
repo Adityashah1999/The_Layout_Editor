@@ -1,4 +1,4 @@
-package com.aditya.theLayoutEditor;
+package com.aditya.helloconstraint;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.aditya.theLayoutEditor", appContext.getPackageName());
+        assertEquals("com.aditya.helloconstraint", appContext.getPackageName());
     }
 }

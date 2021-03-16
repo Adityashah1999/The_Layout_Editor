@@ -1,4 +1,4 @@
-package com.aditya.theLayoutEditor;
+package com.aditya.helloconstraint;
 
 import android.annotation.SuppressLint;
 import android.os.Build;
@@ -9,6 +9,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.aditya.theLayoutEditor.R;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -50,18 +52,12 @@ public class MainActivity extends AppCompatActivity {
                 count = count + 1;
 
                 counter.setText("" + count);
-                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-                    btn_reset.setBackgroundColor(btn_count.getContext().getResources().getColor(R.color.my_light_blue, null));
-                }
+                btn_reset.setBackgroundColor(btn_count.getContext().getResources().getColor(R.color.my_light_blue, null));
                 if (count % 2 == 0) {
                     //btn_count.setBackgroundColor(getResources().getColor(R.color.my_yellow, null));
-                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-                        btn_count.setBackgroundColor(btn_count.getContext().getResources().getColor(R.color.my_green, null));
-                    }
+                    btn_count.setBackgroundColor(btn_count.getContext().getResources().getColor(R.color.my_green, null));
                 } else {
-                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-                        btn_count.setBackgroundColor(btn_count.getContext().getResources().getColor(R.color.my_red, null));
-                    }
+                    btn_count.setBackgroundColor(btn_count.getContext().getResources().getColor(R.color.my_red, null));
                 }
 
             }
@@ -73,12 +69,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 count = 0;
                 counter.setText("" + count);
-                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-                    btn_reset.setBackgroundColor(btn_count.getContext().getResources().getColor(R.color.my_grey, null));
-                }
-                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-                    btn_count.setBackgroundColor(btn_count.getContext().getResources().getColor(R.color.purple_700, null));
-                }
+                btn_reset.setBackgroundColor(btn_count.getContext().getResources().getColor(R.color.my_grey, null));
+                btn_count.setBackgroundColor(btn_count.getContext().getResources().getColor(R.color.purple_700, null));
             }
         });
     }

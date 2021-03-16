@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:backgroundTint="@color/purple_700"
-    tools:context=".MainActivity">
+    tools:context="com.aditya.helloconstraint.MainActivity">
 
     <Button
         android:id="@+id/btzero"
