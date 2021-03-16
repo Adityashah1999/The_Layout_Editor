@@ -1,5 +1,7 @@
 package com.aditya.theLayoutEditor;
 
+import android.annotation.SuppressLint;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -40,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         btn_count.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View v) {
 
@@ -47,23 +50,35 @@ public class MainActivity extends AppCompatActivity {
                 count = count + 1;
 
                 counter.setText("" + count);
-                btn_reset.setBackgroundColor(btn_count.getContext().getResources().getColor(R.color.my_light_blue, null));
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+                    btn_reset.setBackgroundColor(btn_count.getContext().getResources().getColor(R.color.my_light_blue, null));
+                }
                 if (count % 2 == 0) {
                     //btn_count.setBackgroundColor(getResources().getColor(R.color.my_yellow, null));
-                    btn_count.setBackgroundColor(btn_count.getContext().getResources().getColor(R.color.my_green, null));
+                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+                        btn_count.setBackgroundColor(btn_count.getContext().getResources().getColor(R.color.my_green, null));
+                    }
                 } else {
-                    btn_count.setBackgroundColor(btn_count.getContext().getResources().getColor(R.color.my_red, null));
+                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+                        btn_count.setBackgroundColor(btn_count.getContext().getResources().getColor(R.color.my_red, null));
+                    }
                 }
 
             }
         });
         btn_reset.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("SetTextI18n")
+
             @Override
             public void onClick(View v) {
                 count = 0;
                 counter.setText("" + count);
-                btn_reset.setBackgroundColor(btn_count.getContext().getResources().getColor(R.color.my_grey, null));
-                btn_count.setBackgroundColor(btn_count.getContext().getResources().getColor(R.color.design_default_color_primary_variant, null));
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+                    btn_reset.setBackgroundColor(btn_count.getContext().getResources().getColor(R.color.my_grey, null));
+                }
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+                    btn_count.setBackgroundColor(btn_count.getContext().getResources().getColor(R.color.purple_700, null));
+                }
             }
         });
     }

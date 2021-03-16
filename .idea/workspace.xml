@@ -13,25 +13,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="928d6a75-4cb1-4e33-83a9-7681bd7eeac4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Hello_Constraint.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/app/Hello_Constraint.app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Hello_Toast.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/Hello_Toast.app.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/aditya/theLayoutEditor/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/aditya/theLayoutEditor/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-land/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-land/activity_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp/activity_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +44,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Homework" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -230,14 +215,22 @@
       <option name="project" value="LOCAL" />
       <updated>1615901466497</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Homework Completed.">
+      <created>1615905902118</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1615905902118</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit." />
     <MESSAGE value="coding challenge1 completed" />
     <MESSAGE value="minor changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor changes" />
+    <MESSAGE value="Homework Completed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework Completed." />
   </component>
   <component name="WindowStateProjectService">
     <state x="297" y="0" key="#All_in_Hello_Toast" timestamp="1615885938791">
@@ -252,6 +245,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="92" y="92" width="1182" height="554" key="AVDManager/0.0.1366.738@0.0.1366.738" timestamp="1615893037487" />
+    <state x="263" y="124" key="AndroidCreateResourceFileDialog" timestamp="1615906123050">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="263" y="124" key="AndroidCreateResourceFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1615906123050" />
     <state x="467" y="129" key="FileChooserDialogImpl" timestamp="1615904108094">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -276,10 +273,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="188" y="28" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1615886002594" />
-    <state x="279" y="102" key="Vcs.Push.Dialog.v2" timestamp="1615902196303">
+    <state x="279" y="102" key="Vcs.Push.Dialog.v2" timestamp="1615905947741">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="279" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1615902196303" />
+    <state x="279" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1615905947741" />
     <state x="385" y="178" key="com.android.tools.idea.run.deployment.ModifyDeviceSetDialog" timestamp="1615893596993">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
